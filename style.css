@@ -1,13 +1,31 @@
-body,
-html,
-*{
-    font-size: 10px;
-    box-sizing: border-box;
-    margin: 0;
+html, 
+body, *{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;         /*  100% is 16 px but we want 10 px so we do 62.5 */
+
 }
 
-.card{
-    height: 40rem;
 
+.parent{
+    font-size: 10px;
+    color: red;
+}
+
+h2{
+    margin: 1rem;
+
+}
+.px-size{
+    font-size: 20px;
+
+}
+
+.rem-size{
+    font-size: 2rem;
+}
+
+.em-size{
+    font-size: 2em;
 }
