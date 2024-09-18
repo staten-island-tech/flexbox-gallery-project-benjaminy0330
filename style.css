@@ -4,29 +4,48 @@ body, *{
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;         /*  100% is 16 px but we want 10 px so we do 62.5 */
+    background-color: antiquewhite;
 
 }
 
+.title{
+    font-size: 100px;;
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
 .parent-intro{
     font-size: 30px;
+    justify-content: space-around;
+    display: flex;
+
 }
 .child-1{
     border: 1px solid red;
+    width: 28%;
 }
 
 .child-2{
     border: 1px solid red;
+    width: 28%;
 }
 
 .child-3{
     border: 1px solid red;
+    width: 28%;
 }
 
 .parent-spacing{
     font-size: 30px;
+    border: 1px solid red;
+    width: 28%;
+    display: flex;
 }
 
 
 .parent-flexconstants{
     font-size: 30px;
+    border: 1px solid red;
+    width: 28%;
+    display: flex;
 }
