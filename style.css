@@ -4,48 +4,86 @@ body, *{
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;         /*  100% is 16 px but we want 10 px so we do 62.5 */
-    background-color: antiquewhite;
-
+    background-image: url(https://cdn2.steamgriddb.com/hero_thumb/0a3b78847b7932e38d601e9231ca2212.jpg)
+    
 }
 
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  
 .title{
     font-size: 100px;;
     color: red;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
-.parent-intro{
+.row1{
     font-size: 30px;
     justify-content: space-around;
     display: flex;
+    text-align: center;
 
 }
-.child-1{
+.box123{
     border: 1px solid red;
     width: 28%;
+    border-radius: 20px;
+    background-color: aliceblue;
 }
 
-.child-2{
-    border: 1px solid red;
-    width: 28%;
+.img123{
+    display: block;
+    margin: auto;
+    background-color: aliceblue;
+    
 }
 
-.child-3{
-    border: 1px solid red;
-    width: 28%;
-}
-
-.parent-spacing{
+.row2{
     font-size: 30px;
-    border: 1px solid red;
-    width: 28%;
     display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
-
-.parent-flexconstants{
-    font-size: 30px;
+.box123sub{
     border: 1px solid red;
     width: 28%;
-    display: flex;
+    border-radius: 20px;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
 }
+
