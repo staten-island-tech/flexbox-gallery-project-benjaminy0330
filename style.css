@@ -4,6 +4,7 @@ body, *{
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;         /*  100% is 16 px but we want 10 px so we do 62.5 */
+    font-family: "Lexend", sans-serif;
     
     
 }
@@ -15,27 +16,44 @@ body{
     font-size: 100px;;
     color: red;
     text-align: center;
+    margin-top: 5rem;
     margin-bottom: 10rem;
+    border: 10px solid rgb(227, 236, 234);
+    background-color: rgb(236, 233, 185);
+    border-radius: 20px;
+    justify-content: space-around;
+    display: flex;
 }
 .row1{
     font-size: 30px;
     justify-content: space-around;
     display: flex;
     text-align: center;
+    margin-bottom: 4rem;
 
 }
 .box123{
-    border: 1px solid red;
+    border: 10px solid rgb(227, 236, 234);
     width: 29%;
     border-radius: 20px;
-    background-color: khaki;
+    background-color: rgb(236, 233, 185);
+    font-size: 5rem;
 }
 
 .img123{
     display: block;
     margin: auto;
-    background-color: khaki;
+    background-color: rgb(236, 233, 185);
     
+}
+
+.img456{
+    display: block;
+    margin-top: 4rem;
+    margin-left: 6.9rem;
+    margin-right: 3rem;
+    width: 70%;
+    margin-bottom: 9rem;
 }
 
 .row2{
@@ -45,14 +63,9 @@ body{
     text-align: center;
 }
 
-.box123sub{
-    border: 1px solid red;
-    width: 28%;
-    border-radius: 20px;
-    font-size: 4.5rem;
-    margin-bottom: 2rem;
-}
+
 
 .h2test{
     font-size: 5rem;
 }
+
