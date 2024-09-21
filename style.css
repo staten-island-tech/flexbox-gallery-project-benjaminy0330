@@ -32,8 +32,11 @@ body{
     margin-bottom: 4rem;
 
 }
-.box123{
-    border: 10px solid rgb(227, 236, 234);
+
+
+.box123:hover{
+    transition: 0.3s;
+    border: 15px solid rgb(139, 211, 240);
     width: 29%;
     border-radius: 20px;
     background-color: rgb(236, 233, 185);
@@ -44,16 +47,13 @@ body{
     display: block;
     margin: auto;
     background-color: rgb(236, 233, 185);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 1em;
     
-}
-
-.img456{
-    display: block;
-    margin-top: 4rem;
-    margin-left: 6.9rem;
-    margin-right: 3rem;
-    width: 70%;
-    margin-bottom: 9rem;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .row2{
@@ -67,5 +67,9 @@ body{
 
 .h2test{
     font-size: 5rem;
+    background-color: rgb(236, 233, 185);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 1rem;
 }
 
