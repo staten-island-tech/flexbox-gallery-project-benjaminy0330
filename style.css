@@ -24,15 +24,25 @@ body{
     justify-content: space-around;
     display: flex;
 }
+@media screen and (max-width:700px){
+    .title{
+        flex-direction: column;
+    }
+}
 .row1{
     font-size: 30px;
     justify-content: space-around;
     display: flex;
     text-align: center;
+    flex-direction: row;
     margin-bottom: 4rem;
 
 }
-
+@media screen and (max-width:700px){
+    .row1{
+        flex-direction: column;
+    }
+}
 
 .box123:hover{
     transition: 0.3s;
@@ -41,6 +51,12 @@ body{
     border-radius: 20px;
     background-color: rgb(236, 233, 185);
     font-size: 5rem;
+}
+@media screen and (max-width:700px){
+    .box123:hover{
+        flex-direction: column;
+    }
+    
 }
 
 .img123{
@@ -54,6 +70,11 @@ body{
     display: flex;
     justify-content: space-around;
     
+}
+@media screen and (max-width:700px){
+    .img123{
+        flex-direction: column;
+    }
 }
 
 .row2{
