@@ -1,96 +1,64 @@
-html, 
+html,
 body, *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 62.5%;         /*  100% is 16 px but we want 10 px so we do 62.5 */
-    font-family: "Lexend", sans-serif;
+    font-size: 62.5%;
     
-    
-}
-body{
-    background-image: url(https://cdn2.steamgriddb.com/hero_thumb/0a3b78847b7932e38d601e9231ca2212.jpg)
 }
 
+body{
+    background-image: url(https://cdn2.steamgriddb.com/hero_thumb/0a3b78847b7932e38d601e9231ca2212.jpg);
+}
 .title{
-    font-size: 100px;;
+    margin: auto;
+    padding-top: 5rem;
     color: red;
     text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 10rem;
-    border: 10px solid rgb(227, 236, 234);
-    background-color: rgb(236, 233, 185);
-    border-radius: 20px;
-    justify-content: space-around;
-    display: flex;
+    font-size: 5rem;
+    padding-bottom: 5rem;
+    border: 5px red solid;
+    width: 80%;
+    background-color: rgb(204, 203, 191);
+    font-size: 7rem;
+    border-radius: 2rem;
+    
 }
-@media screen and (max-width:700px){
-    .title{
+
+.cards{
+    color: rgb(17, 10, 10);
+    font-size: 10rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    
+}
+@media screen and (max-width: 800px){
+    .cards{
         flex-direction: column;
     }
 }
-.row1{
-    font-size: 30px;
-    justify-content: space-around;
-    display: flex;
+
+.card{
+    border: 8px solid rgb(228, 228, 228);
+    border-radius: 2rem;
+    width: 28%;
     text-align: center;
-    flex-direction: row;
-    margin-bottom: 4rem;
-
-}
-@media screen and (max-width:700px){
-    .row1{
-        flex-direction: column;
-    }
+    background-color: rgb(204, 203, 191);
+   
 }
 
-.box123:hover{
+.card:hover{
+    border: 10px solid rgb(0, 195, 255);
+    border-radius: 2rem;
+    width: 28%;
+    text-align: center;
+    background-color: rgb(130, 240, 231);
     transition: 0.3s;
-    border: 15px solid rgb(139, 211, 240);
-    width: 29%;
-    border-radius: 20px;
-    background-color: rgb(236, 233, 185);
-    font-size: 5rem;
-}
-@media screen and (max-width:700px){
-    .box123:hover{
-        flex-direction: column;
-    }
-    
+   
 }
 
-.img123{
-    display: block;
-    margin: auto;
-    background-color: rgb(236, 233, 185);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding-bottom: 1em;
-    
-    display: flex;
-    justify-content: space-around;
-    
+.img{
+    padding-bottom: 2rem;
 }
-@media screen and (max-width:700px){
-    .img123{
-        flex-direction: column;
-    }
-}
-
-.row2{
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
-
-
-.h2test{
-    font-size: 5rem;
-    background-color: rgb(236, 233, 185);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-bottom: 1rem;
-}
-
