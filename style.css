@@ -49,6 +49,7 @@ body{
    
 }
 
+
 .card:hover{
     border: 10px solid rgb(0, 195, 255);
     border-radius: 2rem;
