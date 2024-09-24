@@ -18,7 +18,7 @@ body{
     font-size: 5rem;
     padding-bottom: 5rem;
     border: 5px red solid;
-    width: 80%;
+    width: 80vw;
     background-color: rgb(204, 203, 191);
     font-size: 7rem;
     border-radius: 2rem;
@@ -32,20 +32,21 @@ body{
     justify-content: space-around;
     padding-bottom: 3rem;
     padding-top: 3rem;
+    flex-wrap: wrap;
     
 }
 @media screen and (max-width: 600px){
     .cards{
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 10vw;
     }
 }
 
 .card{
     border: 8px solid rgb(240, 239, 239);
     border-radius: 2rem;
-    width: 28%;
+    width: 28vw;
     text-align: center;
     background-color: rgb(204, 203, 191);
     box-shadow: 5px 5px 5px rgb(129, 129, 124);
@@ -56,8 +57,14 @@ body{
 @media screen and (max-width: 600px){
     .card{
         flex-direction: column;
-        width: 90%;
+        width: 90vw;
         align-items: center;
+        border: 8px solid rgb(240, 239, 239);
+        border-radius: 2rem;
+        text-align: center;
+        background-color: rgb(204, 203, 191);
+        box-shadow: 5px 5px 5px rgb(129, 129, 124);
+        transition: 0.2s;
     }
 }
     
@@ -67,7 +74,7 @@ body{
 .card:hover{
     border: 10px solid rgb(0, 195, 255);
     border-radius: 2rem;
-    width: 30%;
+    width: 32vw;
     text-align: center;
     background-color: rgb(130, 240, 231);
     transition: 0.3s;
@@ -76,18 +83,18 @@ body{
    
 }
 
-@media screen and(max-width: 600px){
+@media screen and (max-width: 600px){
     .card:hover{
         flex-direction: column;
-        width: 80%;
         border: 10px solid rgb(0, 195, 255);
         border-radius: 2rem;
-        width: 30%;
+        width: 90vw;
         text-align: center;
         background-color: rgb(130, 240, 231);
         transition: 0.3s;
         transform: rotate(2deg);
         align-items: center;
+       
        
     }
     
@@ -102,6 +109,7 @@ body{
     .img{
         flex-direction: column;
         align-items: center;
+        width: 90%;
     }
 }
     
