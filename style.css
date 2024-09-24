@@ -34,27 +34,40 @@ body{
     padding-top: 3rem;
     
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     .cards{
         flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 }
 
 .card{
-    border: 8px solid rgb(228, 228, 228);
+    border: 8px solid rgb(240, 239, 239);
     border-radius: 2rem;
     width: 28%;
     text-align: center;
     background-color: rgb(204, 203, 191);
     box-shadow: 5px 5px 5px rgb(129, 129, 124);
+    transition: 0.2s;
    
 }
+
+@media screen and (max-width: 600px){
+    .card{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+}
+    
+
 
 
 .card:hover{
     border: 10px solid rgb(0, 195, 255);
     border-radius: 2rem;
-    width: 32%;
+    width: 30%;
     text-align: center;
     background-color: rgb(130, 240, 231);
     transition: 0.3s;
@@ -63,12 +76,32 @@ body{
    
 }
 
+@media screen and(max-width: 600px){
+    .card:hover{
+        flex-direction: column;
+        width: 80%;
+        border: 10px solid rgb(0, 195, 255);
+        border-radius: 2rem;
+        width: 30%;
+        text-align: center;
+        background-color: rgb(130, 240, 231);
+        transition: 0.3s;
+        transform: rotate(2deg);
+        align-items: center;
+       
+    }
+    
+}
+
+
+
 .img{
     padding-bottom: 2rem;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     .img{
         flex-direction: column;
+        align-items: center;
     }
 }
     
