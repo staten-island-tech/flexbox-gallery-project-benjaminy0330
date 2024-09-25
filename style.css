@@ -9,21 +9,38 @@ body, *{
 
 body{
     background-image: url(https://cdn2.steamgriddb.com/hero_thumb/0a3b78847b7932e38d601e9231ca2212.jpg);
+    font-family: "Kanit", sans-serif;
 }
 .title{
     margin: auto;
     padding-top: 5rem;
-    color: red;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 5rem;
     padding-bottom: 5rem;
-    border: 5px red solid;
+    border: 5px rgb(255, 255, 255) solid;
     width: 80vw;
-    background-color: rgb(204, 203, 191);
+    background-color: rgb(144, 158, 158);
     font-size: 7rem;
     border-radius: 2rem;
-    
+    box-shadow: 5px 5px 5px rgb(129, 129, 124)
 }
+
+@media screen and (max-width: 850px){
+    .title{
+        margin: auto;
+        padding-top: 5rem;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding-bottom: 5rem;
+        border: 5px rgb(255, 255, 255) solid;
+        width: 80vw;
+        background-color: rgb(144, 158, 158);
+        font-size: 5rem;
+        border-radius: 2rem;
+    }
+}
+    
+
 
 .cards{
     color: rgb(17, 10, 10);
@@ -34,37 +51,49 @@ body{
     padding-top: 3rem;
     flex-wrap: wrap;
     
+    
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 850px){
     .cards{
         flex-direction: column;
         align-items: center;
-        width: 10vw;
+        color: rgb(17, 10, 10);
+        font-size: 10rem;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        flex-wrap: wrap;
     }
 }
 
 .card{
-    border: 8px solid rgb(240, 239, 239);
+    border: 8px solid white;
     border-radius: 2rem;
-    width: 28vw;
+    width: 21vw;
     text-align: center;
-    background-color: rgb(204, 203, 191);
+    background-color: rgb(144, 158, 158);
     box-shadow: 5px 5px 5px rgb(129, 129, 124);
     transition: 0.2s;
+    padding-bottom: 2rem;
+    color: white;
+    margin: 1rem;
    
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 850px){
     .card{
         flex-direction: column;
         width: 90vw;
         align-items: center;
-        border: 8px solid rgb(240, 239, 239);
+        border: 8px solid rgb(255, 255, 255);
         border-radius: 2rem;
         text-align: center;
-        background-color: rgb(204, 203, 191);
-        box-shadow: 5px 5px 5px rgb(129, 129, 124);
+        background-color: rgb(144, 158, 158);
+        box-shadow: 10px 5px 5px rgb(129, 129, 124);
         transition: 0.2s;
+        color: rgb(255, 255, 255);
+        margin: auto;
     }
 }
     
@@ -74,16 +103,17 @@ body{
 .card:hover{
     border: 10px solid rgb(0, 195, 255);
     border-radius: 2rem;
-    width: 32vw;
+    width: 24vw;
     text-align: center;
-    background-color: rgb(130, 240, 231);
+    background-color: rgb(128, 228, 219);
     transition: 0.3s;
     transform: rotate(2deg);
     align-items: center;
+    color: black;
    
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 850px){
     .card:hover{
         flex-direction: column;
         border: 10px solid rgb(0, 195, 255);
@@ -104,6 +134,7 @@ body{
 
 .img{
     padding-bottom: 2rem;
+    width: 85%;
 }
 @media screen and (max-width: 600px){
     .img{
