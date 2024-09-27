@@ -18,7 +18,7 @@ body{
     text-align: center;
     padding-bottom: 5rem;
     border: 5px rgb(255, 255, 255) solid;
-    width: 80vw;
+    width: 100rem;
     background-color: rgb(144, 158, 158);
     font-size: 7rem;
     border-radius: 2rem;
@@ -33,7 +33,7 @@ body{
         text-align: center;
         padding-bottom: 5rem;
         border: 5px rgb(255, 255, 255) solid;
-        width: 80vw;
+        width: 50rem;
         background-color: rgb(144, 158, 158);
         font-size: 5rem;
         border-radius: 2rem;
@@ -70,7 +70,7 @@ body{
 .card{
     border: 8px solid white;
     border-radius: 2rem;
-    width: 21vw;
+    width: 40rem;
     text-align: center;
     background-color: rgb(144, 158, 158);
     box-shadow: 5px 5px 5px rgb(129, 129, 124);
@@ -84,7 +84,7 @@ body{
 @media screen and (max-width: 850px){
     .card{
         flex-direction: column;
-        width: 90vw;
+        width: 40rem;
         align-items: center;
         border: 8px solid rgb(255, 255, 255);
         border-radius: 2rem;
@@ -103,7 +103,7 @@ body{
 .card:hover{
     border: 10px solid rgb(0, 195, 255);
     border-radius: 2rem;
-    width: 24vw;
+    width: 43rem;
     text-align: center;
     background-color: rgb(128, 228, 219);
     transition: 0.3s;
@@ -118,7 +118,7 @@ body{
         flex-direction: column;
         border: 10px solid rgb(0, 195, 255);
         border-radius: 2rem;
-        width: 90vw;
+        width: 40rem;
         text-align: center;
         background-color: rgb(130, 240, 231);
         transition: 0.3s;
